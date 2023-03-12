@@ -5,8 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar Menu</title>
+    <!--Boxicons CDN link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-c-plus-plus'></i>
+                <div class="logo_name">Sidebar</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <div>
+            <ul class="nav_list">
+                 <li>
+                     <i class='bx bx-search-alt-2' ></i>
+                    <input type="text" placeholder="Search...">                   
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Board</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-user'></i>
+                        <span class="links_name">User</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-chat' ></i>
+                        <span class="links_name">Massages</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-pie-chart-alt' ></i>
+                        <span class="links_name">Analytics</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-folder' ></i>
+                        <span class="links_name">File Manager</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-cart' ></i>
+                        <span class="links_name">Order</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bxs-bookmark-star' ></i>
+                        <span class="links_name">Saved</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class='bx bx-cog' ></i>
+                        <span class="links_name">Setting</span>
+                        <span class="tooltip">Board</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="profile.jpg" alt="profile_photo">
+                    <div class="name_job">
+                        <div class="name">Trololowell</div>
+                        <div class="job">Web Designer</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
